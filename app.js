@@ -54,7 +54,7 @@ async function main() {
           if (result === true) {
             res.render("secrets.ejs");
           } else {
-            res.send("Wrong password");
+            res.send("Wrong password, Go back and try again");
           }
         });
       } else {
